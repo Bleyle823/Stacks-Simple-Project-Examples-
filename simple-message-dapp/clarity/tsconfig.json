@@ -1,15 +1,18 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
-    "module": "ESNext",
-    "moduleResolution": "Node",
-    "esModuleInterop": true,
+    "target": "ES2020",
+    "module": "ES2020",
+    "lib": ["ES2020"],
+    "moduleResolution": "node",
+    "types": ["vitest/globals", "node"],
     "strict": true,
+    "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "types": ["vitest"]
+    "resolveJsonModule": true
   },
-  "include": ["tests/**/*.ts"]
+  "include": ["tests/**/*", "scripts/**/*"],
+  "exclude": ["node_modules"]
 }
 
 

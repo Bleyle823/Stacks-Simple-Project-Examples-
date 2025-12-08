@@ -3,7 +3,7 @@ import { CONTRACT_ADDRESS, CONTRACT_NAME } from './constants';
 
 export type NetworkType = 'mainnet' | 'testnet';
 
-export async function getMessage(network: NetworkType): Promise<string> {
+export async function getMessageValue(network: NetworkType): Promise<string> {
   const stacksNetwork = network === 'mainnet' ? new StacksMainnet() : new StacksTestnet();
   const apiUrl = stacksNetwork.coreApiUrl || 'https://api.stacks.co';
 
@@ -22,7 +22,8 @@ export async function getMessage(network: NetworkType): Promise<string> {
 
     if (response.ok) {
       const data = await response.json();
-      return data.result?.value || '';
+      // This assumes the API returns a decoded value field, similar to the counter example
+      return data.result?.value || 'No message set';
     } else {
       // Fallback: try local devnet
       try {
@@ -39,12 +40,12 @@ export async function getMessage(network: NetworkType): Promise<string> {
         );
         if (devnetResponse.ok) {
           const devnetData = await devnetResponse.json();
-          return devnetData.result?.value || '';
+          return devnetData.result?.value || 'No message set';
         }
       } catch (e) {
         // Ignore devnet error
       }
-      throw new Error('Failed to fetch message');
+      throw new Error('Failed to fetch message value');
     }
   } catch (error) {
     console.error('Error loading message:', error);

@@ -1,12 +1,10 @@
-import { defineConfig } from "vitest/config";
-import { clarinetConfig } from "vitest-environment-clarinet/config";
+import { defineConfig } from 'vitest/config';
 
 export default defineConfig({
   test: {
-    environment: "clarinet",
-    environmentOptions: {
-      clarinet: clarinetConfig,
-    },
+    environment: 'clarinet',
+    globals: true,
+    testTimeout: 60000,
   },
 });
 

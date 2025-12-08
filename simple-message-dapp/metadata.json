@@ -1,0 +1,18 @@
+{
+  "title": "Simple Message dApp",
+  "description": "A minimal example dApp demonstrating basic Clarity smart contract functionality with a simple on-chain message",
+  "type": "dapp",
+  "framework": "clarity, nextjs",
+  "useCase": "learning, example",
+  "complexity": "beginner",
+  "tags": [
+    "message",
+    "clarity",
+    "stacks",
+    "smart-contract",
+    "beginner",
+    "example"
+  ]
+}
+
+

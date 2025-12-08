@@ -1,24 +1,33 @@
-# Simple Message dApp - Clarity Contracts
+# Message Contract
 
-This Clarinet project contains the smart contract for the **Simple Message dApp**.
+A simple Clarity smart contract that maintains a message string on the Stacks blockchain.
 
-## Contract: `message-board`
+## Contract Functions
 
-- **`get-message` (read-only)**: Returns the current on-chain message.
-- **`get-owner` (read-only)**: Returns the current owner (if initialized).
-- **`set-message` (public)**: Updates the message. The first caller becomes the owner; after that only the owner can update it.
+- `get-message` – Returns the current message (read-only)
+- `set-message` – Sets/updates the on-chain message
+- `clear-message` – Clears the stored message back to an empty string
 
-## Scripts
+## Testing
 
-- **`npm test`** – Run Vitest tests against the Clarinet simnet.
-- **`npm run test:watch`** – Watch contract/tests and re-run tests automatically.
-
-## Getting Started
+Run the test suite:
 
 ```bash
-cd clarity
-npm install
 npm test
+```
+
+Run tests in watch mode:
+
+```bash
+npm run test:watch
+```
+
+## Development
+
+Start a Clarinet console for interactive testing:
+
+```bash
+clarinet console
 ```
 
 

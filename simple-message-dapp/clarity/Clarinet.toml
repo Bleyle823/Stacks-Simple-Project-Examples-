@@ -5,8 +5,8 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 
-[contracts.message-board]
-path = 'contracts/message-board.clar'
+[contracts.message]
+path = 'contracts/message.clar'
 clarity_version = 3
 epoch = 3.0
 

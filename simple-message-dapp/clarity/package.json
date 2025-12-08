@@ -1,7 +1,7 @@
 {
   "name": "simple-message",
   "version": "1.0.0",
-  "description": "Simple on-chain message smart contract example",
+  "description": "Simple message smart contract example",
   "type": "module",
   "scripts": {
     "test": "vitest run -- --manifest-path ./Clarinet.toml",

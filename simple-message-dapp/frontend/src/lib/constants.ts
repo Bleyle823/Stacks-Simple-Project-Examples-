@@ -1,4 +1,4 @@
 export const CONTRACT_ADDRESS = 'ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM';
-export const CONTRACT_NAME = 'message-board';
+export const CONTRACT_NAME = 'message';
 
 
