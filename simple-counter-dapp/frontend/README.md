@@ -60,23 +60,17 @@ export const CONTRACT_NAME = 'counter';
 ```
 frontend/
 ├── src/
-│   ├── app/              # Next.js app directory
-│   │   ├── layout.tsx    # Root layout
-│   │   ├── page.tsx      # Main page
-│   │   └── globals.css   # Global styles
-│   ├── components/       # React components
-│   │   ├── WalletProvider.tsx
-│   │   ├── ConnectWallet.tsx
-│   │   └── NetworkSelector.tsx
-│   ├── hooks/           # Custom React hooks
-│   │   ├── useCurrentAddress.ts
-│   │   └── useNetwork.ts
-│   └── lib/             # Utilities and constants
-│       ├── constants.ts
-│       ├── network.ts
-│       └── counter-operations.ts
+│   ├── app/                    # Next.js app directory
+│   │   ├── layout.tsx          # Root layout
+│   │   ├── page.tsx            # Main page component
+│   │   └── globals.css         # Global Tailwind styles
+│   └── lib/                    # Utilities and constants
+│       ├── constants.ts        # Contract configuration
+│       └── counter-operations.ts # Counter contract functions
 ├── package.json
+├── next.config.mjs
 ├── tailwind.config.ts
+├── postcss.config.mjs
 └── tsconfig.json
 ```
 
