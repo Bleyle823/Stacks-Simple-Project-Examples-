@@ -1,0 +1,22 @@
+[project]
+name = 'simple-message'
+description = 'A simple message dApp demonstrating basic Clarity smart contract functionality'
+authors = []
+telemetry = true
+cache_dir = './.cache'
+
+[contracts.message-board]
+path = 'contracts/message-board.clar'
+clarity_version = 3
+epoch = 3.0
+
+[repl.analysis]
+passes = []
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = true
+trusted_caller = false
+callee_filter = false
+
+

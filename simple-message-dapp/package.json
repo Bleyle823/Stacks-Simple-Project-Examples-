@@ -1,0 +1,21 @@
+{
+  "name": "simple-message-dapp",
+  "version": "1.0.0",
+  "description": "A simple message dApp demonstrating basic Clarity smart contract functionality",
+  "private": true,
+  "scripts": {
+    "test": "cd clarity && npm test",
+    "dev": "cd clarity && clarinet console"
+  },
+  "keywords": [
+    "stacks",
+    "clarity",
+    "blockchain",
+    "dapp",
+    "message"
+  ],
+  "author": "",
+  "license": "MIT"
+}
+
+
