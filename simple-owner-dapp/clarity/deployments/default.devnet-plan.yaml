@@ -1,0 +1,14 @@
+---
+plan:
+  batches:
+    - id: deploy-owner
+      transactions:
+        - contract-publish:
+            contract-name: owner
+            expected-sender: '"ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM"'
+            cost: 10000
+            path: contracts/owner.clar
+            anchor-block-only: true
+            clarity-version: 3
+
+
