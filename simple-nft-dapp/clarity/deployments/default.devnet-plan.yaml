@@ -1,0 +1,14 @@
+---
+plan:
+  batches:
+    - id: deploy-nft
+      transactions:
+        - contract-publish:
+            contract-name: nft
+            expected-sender: '"ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM"'
+            cost: 10000
+            path: contracts/nft.clar
+            anchor-block-only: true
+            clarity-version: 3
+
+
