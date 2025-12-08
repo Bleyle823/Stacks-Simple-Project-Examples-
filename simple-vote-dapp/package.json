@@ -1,0 +1,23 @@
+{
+  "name": "simple-vote-dapp",
+  "version": "1.0.0",
+  "description": "A simple voting dApp demonstrating a basic yes/no poll in Clarity",
+  "private": true,
+  "scripts": {
+    "test": "cd clarity && npm test",
+    "dev:clarity": "cd clarity && clarinet console",
+    "dev:frontend": "cd frontend && npm run dev"
+  },
+  "keywords": [
+    "stacks",
+    "clarity",
+    "blockchain",
+    "dapp",
+    "voting",
+    "poll"
+  ],
+  "author": "",
+  "license": "MIT"
+}
+
+
