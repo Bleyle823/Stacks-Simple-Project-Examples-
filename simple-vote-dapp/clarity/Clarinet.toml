@@ -7,7 +7,7 @@ cache_dir = './.cache'
 
 [contracts.vote]
 path = 'contracts/vote.clar'
-clarity_version = 3
+clarity_version = 4
 epoch = 3.0
 
 [repl.analysis]
