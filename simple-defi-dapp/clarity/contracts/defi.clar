@@ -5,6 +5,9 @@
 ;; Total liquidity stored in the vault (sum of all user balances)
 (define-data-var total-liquidity uint u0)
 
+;; Timestamp of the last deposit into the vault (requires Clarity 4: `stacks-block-time`)
+(define-data-var last-deposit-time uint u0)
+
 ;; Map from user principal -> balance
 (define-map balances
   { user: principal }
@@ -24,6 +27,11 @@
   (var-get total-liquidity)
 )
 
+;; Read-only function to get the timestamp of the last deposit
+(define-read-only (get-last-deposit-time)
+  (var-get last-deposit-time)
+)
+
 ;; Public function to deposit into the vault.
 ;; Increases the caller's balance and total-liquidity by `amount`.
 (define-public (deposit (amount uint))
@@ -36,6 +44,7 @@
     (begin
       (map-set balances { user: tx-sender } { amount: new-balance })
       (var-set total-liquidity new-total)
+      (var-set last-deposit-time stacks-block-time)
       (ok new-balance)
     )
   )
