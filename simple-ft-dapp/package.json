@@ -1,0 +1,24 @@
+{
+  "name": "simple-ft-dapp",
+  "version": "1.0.0",
+  "description": "A simple FT dApp demonstrating a basic fungible token in Clarity",
+  "private": true,
+  "scripts": {
+    "test": "cd clarity && npm test",
+    "dev:clarity": "cd clarity && clarinet console",
+    "dev:frontend": "cd frontend && npm run dev"
+  },
+  "keywords": [
+    "stacks",
+    "clarity",
+    "blockchain",
+    "dapp",
+    "fungible",
+    "token",
+    "ft"
+  ],
+  "author": "",
+  "license": "MIT"
+}
+
+
