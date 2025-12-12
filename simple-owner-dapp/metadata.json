@@ -1,0 +1,19 @@
+{
+  "title": "Simple Owner dApp",
+  "description": "A minimal example dApp demonstrating basic Clarity smart contract functionality with a single on-chain owner that can be transferred",
+  "type": "dapp",
+  "framework": "clarity, nextjs",
+  "useCase": "learning, example",
+  "complexity": "beginner",
+  "tags": [
+    "owner",
+    "ownership",
+    "clarity",
+    "stacks",
+    "smart-contract",
+    "beginner",
+    "example"
+  ]
+}
+
+

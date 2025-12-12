@@ -1,0 +1,5 @@
+.cache/
+.debug_history
+.turbo/
+node_modules/
+

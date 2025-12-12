@@ -1,0 +1,19 @@
+{
+  "title": "Simple NFT dApp",
+  "description": "A minimal example dApp demonstrating basic NFT minting and transfer in a Clarity smart contract",
+  "type": "dapp",
+  "framework": "clarity, nextjs",
+  "useCase": "learning, example, nft",
+  "complexity": "beginner",
+  "tags": [
+    "nft",
+    "token",
+    "clarity",
+    "stacks",
+    "smart-contract",
+    "beginner",
+    "example"
+  ]
+}
+
+

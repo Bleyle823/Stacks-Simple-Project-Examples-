@@ -1,0 +1,20 @@
+{
+  "title": "Simple FT dApp",
+  "description": "A minimal example dApp demonstrating a basic fungible token (FT) with mint and transfer in a Clarity smart contract",
+  "type": "dapp",
+  "framework": "clarity, nextjs",
+  "useCase": "learning, example, token",
+  "complexity": "beginner",
+  "tags": [
+    "ft",
+    "token",
+    "fungible",
+    "clarity",
+    "stacks",
+    "smart-contract",
+    "beginner",
+    "example"
+  ]
+}
+
+

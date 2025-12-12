@@ -1,0 +1,10 @@
+node_modules
+.turbo/
+.DS_Store
+
+clarity/.cache/
+clarity/.debug_history
+clarity/.turbo/
+
+frontend/node_modules/
+

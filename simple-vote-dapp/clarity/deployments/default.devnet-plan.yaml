@@ -1,0 +1,14 @@
+---
+plan:
+  batches:
+    - id: deploy-vote
+      transactions:
+        - contract-publish:
+            contract-name: vote
+            expected-sender: '"ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM"'
+            cost: 10000
+            path: contracts/vote.clar
+            anchor-block-only: true
+            clarity-version: 3
+
+

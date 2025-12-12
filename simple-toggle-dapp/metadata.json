@@ -1,0 +1,19 @@
+{
+  "title": "Simple Toggle dApp",
+  "description": "A minimal example dApp demonstrating basic Clarity smart contract functionality with a simple on-chain boolean toggle",
+  "type": "dapp",
+  "framework": "clarity, nextjs",
+  "useCase": "learning, example",
+  "complexity": "beginner",
+  "tags": [
+    "toggle",
+    "boolean",
+    "clarity",
+    "stacks",
+    "smart-contract",
+    "beginner",
+    "example"
+  ]
+}
+
+

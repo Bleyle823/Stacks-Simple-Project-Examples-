@@ -1,0 +1,22 @@
+{
+  "name": "simple-toggle-dapp",
+  "version": "1.0.0",
+  "description": "A simple toggle dApp demonstrating basic Clarity smart contract functionality",
+  "private": true,
+  "scripts": {
+    "test": "cd clarity && npm test",
+    "dev:clarity": "cd clarity && clarinet console",
+    "dev:frontend": "cd frontend && npm run dev"
+  },
+  "keywords": [
+    "stacks",
+    "clarity",
+    "blockchain",
+    "dapp",
+    "toggle"
+  ],
+  "author": "",
+  "license": "MIT"
+}
+
+

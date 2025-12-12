@@ -1,0 +1,14 @@
+---
+plan:
+  batches:
+    - id: deploy-defi
+      transactions:
+        - contract-publish:
+            contract-name: defi
+            expected-sender: '"ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM"'
+            cost: 10000
+            path: contracts/defi.clar
+            anchor-block-only: true
+            clarity-version: 3
+
+

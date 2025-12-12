@@ -1,0 +1,22 @@
+[project]
+name = 'simple-defi'
+description = 'A simple DeFi vault dApp demonstrating basic on-chain savings functionality'
+authors = []
+telemetry = true
+cache_dir = './.cache'
+
+[contracts.defi]
+path = 'contracts/defi.clar'
+clarity_version = 4
+epoch = 3.0
+
+[repl.analysis]
+passes = []
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = true
+trusted_caller = false
+callee_filter = false
+
+

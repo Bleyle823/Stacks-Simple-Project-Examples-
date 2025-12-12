@@ -1,0 +1,24 @@
+{
+  "name": "simple-defi-dapp",
+  "version": "1.0.0",
+  "description": "A simple DeFi dApp demonstrating a basic on-chain savings vault in Clarity",
+  "private": true,
+  "scripts": {
+    "test": "cd clarity && npm test",
+    "dev:clarity": "cd clarity && clarinet console",
+    "dev:frontend": "cd frontend && npm run dev"
+  },
+  "keywords": [
+    "stacks",
+    "clarity",
+    "blockchain",
+    "dapp",
+    "defi",
+    "vault",
+    "savings"
+  ],
+  "author": "",
+  "license": "MIT"
+}
+
+

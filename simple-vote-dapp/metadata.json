@@ -1,0 +1,19 @@
+{
+  "title": "Simple Voting dApp",
+  "description": "A minimal example dApp demonstrating a basic yes/no voting poll in a Clarity smart contract",
+  "type": "dapp",
+  "framework": "clarity, nextjs",
+  "useCase": "learning, example, voting",
+  "complexity": "beginner",
+  "tags": [
+    "voting",
+    "poll",
+    "clarity",
+    "stacks",
+    "smart-contract",
+    "beginner",
+    "example"
+  ]
+}
+
+

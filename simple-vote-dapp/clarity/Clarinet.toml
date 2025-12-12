@@ -1,0 +1,22 @@
+[project]
+name = 'simple-vote'
+description = 'A simple yes/no voting dApp demonstrating basic poll functionality'
+authors = []
+telemetry = true
+cache_dir = './.cache'
+
+[contracts.vote]
+path = 'contracts/vote.clar'
+clarity_version = 4
+epoch = 3.0
+
+[repl.analysis]
+passes = []
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = true
+trusted_caller = false
+callee_filter = false
+
+

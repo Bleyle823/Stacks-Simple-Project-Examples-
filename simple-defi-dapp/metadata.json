@@ -1,0 +1,20 @@
+{
+  "title": "Simple DeFi Vault dApp",
+  "description": "A minimal DeFi-style example dApp demonstrating a basic on-chain savings vault with deposits and withdrawals",
+  "type": "dapp",
+  "framework": "clarity, nextjs",
+  "useCase": "learning, defi, example",
+  "complexity": "beginner",
+  "tags": [
+    "defi",
+    "vault",
+    "savings",
+    "clarity",
+    "stacks",
+    "smart-contract",
+    "beginner",
+    "example"
+  ]
+}
+
+
